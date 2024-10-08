@@ -1,0 +1,270 @@
+<DOCTYPE html>
+<html lang=""en>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv = "X-UA=Compatible" content = "IE-edge">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Nathan Chen</title>
+        <link rel = "stylesheet" href = "styles.css">
+        <script src="https://kit.fontawesome.com/f2ce9bf567.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class= "logo" alt="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-solid fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-solid fa-bars" onclick = "openmenu()"></i>
+                </nav>
+                    <div class="header-text">
+                        <p>Software Engineer</p>
+                        <h1>Hi, I'm <span>Nathan</span><br>Chen From Miami, FL</h1>
+                    </div>
+            </div>
+        </div>
+<!-- ------------about------------- -->
+        <div id = "about">
+            <div class = "container">
+                <div class = "row">
+                    <div class = "about-col-1">
+                        <img src="images/about.png" alt="User pic">
+                    </div>
+                    <div class = "about-col-2">
+                        <h1 class ="sub-title">About Me</h1>
+                        <p>
+                            Hi! Nice to meet you! I am a passionate student in the Computer Science field, aspiring to develop my
+                            programming skills to break through and achieve new heights as a software engineer! I would love to work with
+                            backend developing, web development, database management, and other IT related fields!
+                            I enjoy learning about new technologies and achieving my upper limit, reaching my full potential.
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class = "tab-links active-link" onclick = "opentab('education')">Education</p>
+                            <p class = "tab-links" onclick = "opentab('experience')">Professional Experience</p>
+                            <p class = "tab-links" onclick = "opentab('courses')">Courses</p>
+                        </div>
+                        <div class="tab-contents active-tab" id = "education">
+                            <ul>
+                                <li><span>Bachelor of Science in Computer Science</span>
+                                    <br><span class = "second">Florida International University</span>
+                                    <br>Fall 2022 - Present</li>
+                                <li><span>High School Diploma</span>
+                                    <br><span class = "second">TERRA Environmental Research Institute</span> 
+                                    <br>Class of 2022</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id = "experience">
+                            <ul>
+                                <li><span>SWE Gis Lab Intern</span>
+                                    <br><span class = "second">City of Coral Gables, Miami FL</span>
+                                    <br>May 2024 - August 2024
+                                    <ul class = "details">
+                                        <li>Collaborated in development and project implementation of a web application(mobile devices) for integrating ArcGIS with augmented reality (AR) leveraging HTML, CSS, and JS as well as geolocation API</li>
+                                        <li>Researched and implemented a method to accurately tracks Earth's magnetic north relative to the phone's position, rather than using the initial position of the phone as the reference for north."</li>
+                                        <li>Created a web interface to access AR virtual environments to showcase the AR project to city and for city employees to use the AR environments for work.</li>
+                                        <li>Led in the front-end development andcreation of another web interface for NFT redemption using an API</li>
+                                    </ul>
+                                </li>
+                                <li><span>Phone & Remote Dekstop Support</span>
+                                    <br><span class = "second">AMG Certified Services, Miami FL</span>
+                                    <br>September 2023 - March 2024</li>
+                                    <ul class="details">
+                                        <li>Accommodated blind clients patiently with basic tasks through FaceTime, Artificial Intelligence, screen sharing tools, voiceover accessibility features on Apple products, and Seeing AI by Microsoft.</li>
+                                        <li>Researched different ways to automate certain tasks in order to increase efficiency</li>
+                                    </ul>
+                                <li><span>Tech Assistant</span>
+                                    <br><span class = "second">Jorge Mas Canosa Middle School, Miami FL</span>
+                                    <br>July 2021 - August 2021</li>
+                                    <ul class="details">
+                                        <li>Devoted 150 hours to assisting with technological aspects of school, such as setting up and networking teachers' computers, audio systems, and laptop carts in a team-oriented fashion with attention to detail and concern for quality</li>
+                                    </ul>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id = "courses">
+                            <ul>
+                                <li><span>Relevant Coursework @ FIU</span>
+                                    <br><span class = "second">2022 - Present</span>
+                                    <ul class = "details">
+                                        <li>Database Management</li>
+                                        <li>Data Structures</li>
+                                        <li>Software Engineering 1</li>
+                                        <li>Systems Programming</li>
+                                        <li>Intro to Data Mining</li>
+                                        <li>Operating Systems</li>
+                                        <li>Human Computer Interactions</li>
+                                        <li>Algorithm Techniques</li>
+                                        <li>Logic for Computer Science</li>
+                                    </ul>
+                                </li>
+                                <li><span>Bootcamp, Fellowship, and Other Experiences</span>
+                                    <br><span class = "second">Headstarter Software Engineering Fellow</span>
+                                    <br>July 2024 - August 2024
+                                    <ul class = "details">
+                                        <li>Collaborate with partners and build 5 AI projects</li> 
+                                        <li>Expand my network and further develop interview and other soft skills</li>  
+                                    </ul>
+                                    <span class = "second">Codepath Technical Interview Prep(TIP 101)</span>
+                                    <br>June 2024 - August 2024
+                                    <ul class = "details">
+                                        <li>Began learning about python and the data structures used</li>
+                                        <li>Sharpened skills in algorithms and time/space complexities through practice problems and Leetcode</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- ------------services------------- -->
+ <div id = "services">
+    <div class = "container">
+        <h1 class = "sub-title">Skills</h1>
+        <div class = "services-list">
+            <div>
+                <i class="fa-solid fa-earth-americas"></i>
+                <h2>Programming Languages</h2>
+                <p>Java, Python, C#, SQL</p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Development</h2>
+                <p>HTML5, CSS, Bootstrap, Javascript, Node.JS</p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database Management</h2>
+                <p>MySQL, PostgreSQL</p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-wrench"></i>
+                <h2>Platforms and Other Tools</h2>
+                <p>IntelliJ, PyCharm, Jupyter Notebook, Visual Studio Code, Terminal(Shell), Postman</p>
+                <a href="#"></a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- ------------portfolio------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class = "sub-title">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/panther-vision.png" alt="">
+                <div class="layer">
+                    <h3>AI Career-Readiness Platform</h3>
+                    <p>Tailored career paths and networking opportunites based on FIU student interests and values</p>
+                    <a href="panther-vision.html" target = "_blank" rel="noopener noreferrer"><i class="fas fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/cg_web.png" alt="">
+                <div class="layer">
+                    <h3>Web AR Interface</h3>
+                    <p>Connects Coral Gables Employees to AR environments based on their respective departments</p>
+                    <a href="#" target = "_blank" rel="noopener noreferrer"><i class="fas fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/tree_nft.png" alt="">
+                <div class="layer">
+                    <h3>Tree NFT Web Interface</h3>
+                    <p>Allows Coral Gables citizens to redeem tree NFTs for filling out tree of the year survey</p>
+                    <a href="#" target = "_blank" rel="noopener noreferrer"><i class="fas fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ------------contact------------- -->
+ <div id = "contact">
+    <div class = "container">
+        <div class = "row">
+            <div class="contact-left">
+                <h1 class = "sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> chennathan003@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 786-214-1931</p>
+                <div class = "social-icons">
+                    <a href="https://www.instagram.com/_nathanchenn_/profilecard/?igsh=OXlhNnVnZW00N2dm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.github.com/FireHeart003" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nathan-chen-22843824a" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="files/Chen_Nathan_Resume.pdf" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i></a>
+                </div>
+                <a href="files/Chen_Nathan_Resume.pdf" download class = "btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name = "submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder = "Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type = "submit" class = "btn btn2">Submit</button>
+                </form>
+                <span id = "msg"></span>
+            </div>
+            </div>
+        </div>
+        <div class = "copyright">
+            <p>Copyright © 2024 Made with <i class="fa-solid fa-heart"></i> by Nathan Chen</p>
+        </div>
+    </div>
+ </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyUYzC1znDQ6_rdi_J6HaV5bNwP47C-ipdWOmXicdEUxaecBE19l8ym1D-rVNltWtZm/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully!"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    </body>
+</html>
